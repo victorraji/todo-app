@@ -1,4 +1,4 @@
-# Boilerplate Code for Typescript with Vue.js 3 Course
+
 
 This is a Todo Application for Typescript and Vue.js 3
 

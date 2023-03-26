@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* General */
+html{
+  @apply bg-white  text-gray-800;
+}
+.container{
+  max-width: 600px;
+  height: 90vh;
+  @apply md:border-2 border-0 md:shadow-lg mt-10 md:rounded-2xl
+}
+button{
+  @apply px-5 py-2 bg-teal-700 rounded text-white flex;
+
+}
+button svg path{
+  @apply fill-white;
+}
+button svg{
+  @apply ml-3 fill-white;
+}
+svg, svg path{
+  @apply fill-slate-700  rounded-2xl;
+}
+
+/* Entry Form */
+.entry-form{
+  @apply p-5 rounded-b-xl w-full grid grid-cols-12 mt-10;
+}
+.entry-form input{
+  @apply w-full rounded-md p-2 border-2 h-12;
+}
+/* Entry Card */
+.entry-card{
+  @apply px-3 py-2;
+}
+.checked-todos {
+  @apply p-2 overflow-scroll pl-3;
+  max-height: 35vh
+}
+.only-todos {
+  @apply p-2 overflow-scroll pl-3;
+  max-height: 50vh
+}
+.entry-card-body{
+  @apply flex items-center;
+}
+.checkbox-round {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox-round:checked {
+  background-color: teal;
+}
+.entry-card svg{
+  @apply mr-5 min-w-max;
+}
+.entry-footer{
+  @apply flex text-teal-800 text-sm;
+}
+.entry-footer span{
+  opacity: .6;
+}
