@@ -4,5 +4,5 @@ import App from "@/App.vue";
 import "@/assets/base.css";
 
 const app = createApp(App);
-app.use(store)
+app.use(store);
 app.mount("#app");

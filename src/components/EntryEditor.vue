@@ -2,7 +2,6 @@
 import { ref, computed, onMounted, inject } from "vue";
 import { useStore } from "vuex";
 import { userInjectionKey } from "@/Injectionkeys";
-import type Entry from "@/types/Entry";
 const store = useStore();
 const user = inject(userInjectionKey);
 

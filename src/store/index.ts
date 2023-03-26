@@ -8,12 +8,12 @@ export const store = createStore({
   mutations: {
     ADD_TODO(state, payload: Entry) {
       state.todos.unshift(payload);
-    }
+    },
   },
   actions: {
     addTodo(context, entry) {
       context.commit("ADD_TODO", entry);
-    }
+    },
   },
   getters: {
     todos(state) {

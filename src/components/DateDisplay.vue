@@ -9,7 +9,7 @@ export default defineComponent({
     formatted(): string {
       return formatRelative(this.date, Date.now());
     },
-  }
+  },
 });
 </script>
 <template>

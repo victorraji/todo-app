@@ -1,12 +1,12 @@
-<script lang="ts" setup>
-// import { PropType } from "vue";
+<script setup lang="ts">
 import DateDisplay from "./DateDisplay.vue";
 import type Entry from "@/types/Entry";
-import { inject } from "vue";
+import { inject, toRefs } from "vue";
 import { userInjectionKey } from "@/Injectionkeys";
 const user = inject(userInjectionKey);
+const props = defineProps<{ todo: Entry }>();
 
-defineProps<{ todo: Entry }>();
+const { todo } = toRefs(props);
 </script>
 
 <template>
