@@ -37,7 +37,6 @@ const handleSubmitEntry = () => {
   if (body.value.length > 0) {
     store.dispatch("addTodo", entry);
     body.value = "";
-    textArea.value?.focus();
   } else {
     let snackbar = document.getElementById("snackbar") as HTMLDivElement | null;
     if (snackbar != null) {

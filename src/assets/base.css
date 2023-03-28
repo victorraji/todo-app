@@ -4,11 +4,12 @@
 
 /* General */
 html{
-  @apply bg-white  text-gray-800;
+  @apply text-gray-800
 }
 .container{
   max-width: 600px;
   height: 90vh;
+  position: fixed;
   @apply md:border-2 border-0 md:shadow-lg mt-10 md:rounded-2xl
 }
 button{

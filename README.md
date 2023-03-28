@@ -23,14 +23,21 @@ Class based components.
 
 ## Directory structure
 
-build/	Compiled source files will be placed here.
-public/	Static assets (fonts, css, js, img).
-src/	Source files.
-src/	Application Entry point.
-src/types	Types defined
-src/components	Vue components including shared (common) components.
-src/routes	Application routes.
-src/store	Vuex state management.
+build/ =>	Compiled source files will be placed here.
+
+public/ =>	Static assets (fonts, css, js, img).
+
+src/ =>	Source files.
+
+src/App =>	Application Entry point.
+
+src/types =>	All Application Types defined
+
+src/components =>	Vue components including shared (common) components.
+
+src/routes =>	Application routes.
+
+src/store =>	Vuex state management.
 
 ### Compile and Hot-Reload for Development
 
