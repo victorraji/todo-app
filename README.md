@@ -4,7 +4,7 @@ This is a Todo Application for Typescript and Vue.js 3
 
 ## How to Install
 ```sh
-Clone the repo - git clone https://github.com/kutia-software-company/vue3-starter.
+Clone the repo - git clone https://github.com/victorraji/todo-app
 ```
 ```sh
 npm install
